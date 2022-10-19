@@ -4,25 +4,27 @@ const modal = document.querySelector(".contenedor-modal");
 
 //USANDO FUNTION Y ONCLICK//////////////////////////////////////
 
-/* function abrir(){
+function abrir(){
     let modalOpen = modal;
     modalOpen.style.zIndex="1";
+    modalOpen.style.display="flex";
     //modalOpen.classList.add("mostrar-modal");
 };
 
 function cerrar(){
     let modalClose = modal;
     modalClose.style.zIndex="-1";
+    modalClose.style.display="none";
     //modalClose.classList.remove("mostrar-modal");
 };
 
 ingresar.onclick = abrir;
-salir.onclick = cerrar; */
+salir.onclick = cerrar;
 
 //USANDO EVENT LISTENER////////////////////////////////////////
 
 
-ingresar.addEventListener('click', ()=>{
+/* ingresar.addEventListener('click', ()=>{
     modal.classList.add("mostrar-modal");
 }); 
 
@@ -30,7 +32,7 @@ salir.addEventListener('click', ()=>{
     modal.classList.remove("mostrar-modal");
 });
 
-
+ */
 
 /////////////////////////////////////////////////////////////////////////
 
